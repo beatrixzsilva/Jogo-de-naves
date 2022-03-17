@@ -396,7 +396,7 @@ musica.play();
 			$("#energia").css("background-image", "url(imgs/energia0.png)");
 			
 			//Game Over
-            somGameover();
+            gameOver();
 		}
 	
 	} // Fim da função energia()
@@ -422,15 +422,6 @@ musica.play();
 
  
 } // Fim da função start
-
-//Reinicia o Jogo
-		
-function reiniciaJogo() {
-	somGameover.pause();
-	$("#fim").remove();
-	start();
-	
-} //Fim da função reiniciaJogo
 
 //Reinicia o Jogo
 		
