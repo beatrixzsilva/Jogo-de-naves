@@ -261,8 +261,7 @@ musica.play();
             explosao3(amigoX,amigoY);
             $("#amigo").remove();
                     
-            reposicionaAmigo();
-                    
+            reposicionaAmigo();          
         }
 
     } //Fim da função colisao()
@@ -431,6 +430,8 @@ function reiniciaJogo() {
 	start();
 	
 } //Fim da função reiniciaJogo
+
+//Fim do jogo
 
 
 
